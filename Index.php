@@ -4,19 +4,25 @@
     <meta charset="utf-8">
 </head>
 <body>
-<header>
-    <h1>This is h1</h1>
-</header>
-<main>
-    <form action="Index.php" method="post">
-        <fieldset>
-            <legend>Login</legend>
-            <label for="id">ID</label>
-            <input id="id" type="text" name="id" />
-            <label for="pw">Password</label>
-            <input id="pw" type="password" name="password" />
-        </fieldset>
-    </form>
-</main>
+    <header>
+        <h1>This is h1</h1>
+    </header>
+    <main>
+        <form action="Index.php" method="post">
+            <fieldset>
+                <legend>Login</legend>
+                <label for="id">ID</label>
+                <input id="id" type="text" name="id" />
+                <label for="pw">Password</label>
+                <input id="pw" type="password" name="password" />
+            </fieldset>
+        </form>
+        <?php
+            echo"<h2>This is h2 in php</h2>";
+        ?>
+    </main>
+    <footer>
+        <p>This is footer</p>
+    </footer>
 </body>
 </html>
