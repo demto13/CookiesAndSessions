@@ -12,8 +12,8 @@
             <fieldset>
                 <legend>Login</legend>
                 <label for="id">ID</label><br />
-                <input id="id" type="text" name="id" />
-                <label for="pw">Password</label><be />
+                <input id="id" type="text" name="id" /><br />
+                <label for="pw">Password</label><br />
                 <input id="pw" type="password" name="password" /><br />
                 <input type="submit" value="Submit" />
             </fieldset>
