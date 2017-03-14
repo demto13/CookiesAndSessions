@@ -13,7 +13,10 @@
         setcookie('accessLevelCookie', 'standardUser');
         header('location: HomePage.php');
     }
-
+    elseif(($_username == "tom") && ($password == "password"))
+    {
+        setcookie('accessLevelCookie', 'rootUser');
+    }
     else
     {
         echo"<h1>Incorrect details</h1>";
