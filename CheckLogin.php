@@ -11,7 +11,11 @@
     if(($username == "user") && ($password == "password"))
     {
         setcookie('accessLevelCookie', 'standardUser');
+        header('location: HomePage.php');
     }
 
-    header('location: HomePage.php');
+    else
+    {
+        echo"<h1>Incorrect details</h1>";
+    }
 ?>
