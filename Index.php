@@ -8,13 +8,14 @@
         <h1>This is h1</h1>
     </header>
     <main>
-        <form action="Index.php" method="post">
+        <form action="CheckLogin.php" method="post">
             <fieldset>
                 <legend>Login</legend>
-                <label for="id">ID</label>
+                <label for="id">ID</label><br />
                 <input id="id" type="text" name="id" />
-                <label for="pw">Password</label>
-                <input id="pw" type="password" name="password" />
+                <label for="pw">Password</label><be />
+                <input id="pw" type="password" name="password" /><br />
+                <input type="submit" value="Submit" />
             </fieldset>
         </form>
         <?php
