@@ -8,5 +8,5 @@
     $_SESSION['firstName'] = $_POST['firstName'];
     $_SESSION['lastName']  = $_POST['lastName'];
 
-    header['location: HomePage.php'];
+    header('location: HomePage.php');
 ?>
