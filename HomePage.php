@@ -11,9 +11,13 @@
     if($accessLevel == "standardUser")
     {
         echo"<h1>Hello Standard user</h1>";
+        echo"id: {$username}" . "<br />" . "pw: {$password}" . "<br />";
+        echo"cookie set: {$_COOKIE}";
     }
     elseif($accessLevel == "rootUser")
     {
         echo"<h1> Hello root user";
+        echo"id: {$username} pw: {$password}";
+        echo"cookie set: {$_COOKIE}";
     }
 ?>
