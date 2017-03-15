@@ -5,6 +5,7 @@
  * Date: 3/14/2017
  * Time: 9:17 PM
  */
+session_start();
 
     $accessLevel = $_COOKIE['accessLevelCookie'];
     $username = $_POST['id'];
