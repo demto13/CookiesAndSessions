@@ -19,6 +19,6 @@
     {
         echo"<h1> Hello root user";
         echo"id: {$username} pw: {$password}";
-        echo"cookie set: {$accessLevel}";
+        echo"cookie set: {$_COOKIE['accessLevel']}";
     }
 ?>
