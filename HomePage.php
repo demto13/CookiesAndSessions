@@ -7,6 +7,7 @@
  */
 
     $accessLevel = $_COOKIE['accessLevelCookie'];
+    $username = $_POST['id'];
 
     if($accessLevel == "standardUser")
     {
@@ -18,6 +19,6 @@
     {
         echo"<h1> Hello root user";
         echo"id: {$username} pw: {$password}";
-        echo"cookie set: {$_COOKIE}";
+        echo"cookie set: {$accessLevel}";
     }
 ?>
