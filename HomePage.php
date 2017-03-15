@@ -32,4 +32,8 @@
     {
         echo"hello {$_SESSION['id']}";
     }
+    else
+    {
+        echo "no session detected";
+    }
 ?>
