@@ -36,4 +36,12 @@
     {
         echo "no session detected";
     }
+
+    if(isset($_SESSION['firstName']))
+    {
+        print"Your first name is : {$_SESSION['firstName']}";
+    }
+    else{
+        print"No session detected from 2nd form either";
+    }
 ?>
