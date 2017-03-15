@@ -20,6 +20,7 @@
     else
     {
         echo"<h1>Incorrect details</h1>";
-        echo"id: {$username} pw: {password}";
+        echo"id: {$username} pw: {$password}";
+        echo"cookie set: {$_COOKIE}";
     }
 ?>
