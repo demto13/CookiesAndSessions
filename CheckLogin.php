@@ -16,6 +16,7 @@
     elseif(($username == "tom") && ($password == "password"))
     {
         setcookie('accessLevelCookie', 'rootUser');
+        header('location: HomePage.php');
     }
     else
     {
