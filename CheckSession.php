@@ -6,7 +6,7 @@
  * Time: 7:42 AM
  */
 
-    session_start();
+session_start();
 
     $_SESSION['firstName'] = $_POST['firstName'];
     $_SESSION['lastName']  = $_POST['lastName'];

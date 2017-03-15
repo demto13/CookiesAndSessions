@@ -31,7 +31,7 @@ session_start();
 
     if(isset($_SESSION['id']))
     {
-        echo"hello {$_SESSION['id']}";
+        echo"<p><br />hello {$_SESSION['id']}</p>";
     }
     else
     {
@@ -40,9 +40,9 @@ session_start();
 
     if(isset($_SESSION['firstName']))
     {
-        print"Your first name is : {$_SESSION['firstName']}";
+        print"<p><br />Your first name is : {$_SESSION['firstName']}</p>";
     }
     else{
-        print"No session detected from 2nd form either";
+        print"<p><br />No session detected from 2nd form either</p>";
     }
 ?>

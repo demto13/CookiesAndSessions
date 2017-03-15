@@ -24,7 +24,7 @@
                 <label for="firstName">First Name</label><br />
                 <input id="firstName" type="text" name="firstName" /><br />
                 <label for="lastName">Last Name</label><br />
-                <input id="LastName" type="text" name="LastName" /><br />
+                <input id="lastName" type="text" name="lastName" /><br />
                 <input type="submit" value="Submit" />
             </fieldset>
         </form>
