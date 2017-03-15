@@ -20,5 +20,6 @@
     else
     {
         echo"<h1>Incorrect details</h1>";
+        echo"id: {$username} pw: {password}";
     }
 ?>
