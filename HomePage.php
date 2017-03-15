@@ -13,14 +13,14 @@
     {
         echo"<h1>Hello Standard user</h1>";
         echo"id: {$username}" . "<br />" . "pw: {$password}" . "<br />";
-        echo"cookie set: {$_COOKIE}";
+        echo"cookie set: {$_COOKIE['accessLevelCookie']}";
     }
     elseif($accessLevel == "rootUser")
     {
         echo"<h1> Hello root user</h1>";
-        if(isset($_COOKIE['accessLevel']))
+        if(isset($_COOKIE['accessLevelCookie']))
         {
-            echo"cookie set: {$_COOKIE['accessLevel']}";
+            echo"cookie set: {$_COOKIE['accessLevelCookie']}";
         }
         else
         {
