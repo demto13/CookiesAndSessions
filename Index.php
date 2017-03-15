@@ -10,11 +10,21 @@
     <main>
         <form action="CheckLogin.php" method="post">
             <fieldset>
-                <legend>Login</legend>
+                <legend>Setting a cookie</legend>
                 <label for="id">ID</label><br />
                 <input id="id" type="text" name="id" /><br />
                 <label for="pw">Password</label><br />
                 <input id="pw" type="password" name="password" /><br />
+                <input type="submit" value="Submit" />
+            </fieldset>
+        </form>
+        <form action="CheckSession.php" method="post">
+            <fieldset>
+                <legend>Setting a session</legend>
+                <label for="firstName">First Name</label><br />
+                <input id="firstName" type="text" name="firstName" /><br />
+                <label for="lastName">Last Name</label><br />
+                <input id="LastName" type="text" name="LastName" /><br />
                 <input type="submit" value="Submit" />
             </fieldset>
         </form>

@@ -27,4 +27,9 @@
             echo" No cookies set";
         }
     }
+
+    if(isset($_SESSION['firstName']))
+    {
+        echo"hello {$_SESSION['firstName']}";
+    }
 ?>
