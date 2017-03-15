@@ -17,8 +17,14 @@
     }
     elseif($accessLevel == "rootUser")
     {
-        echo"<h1> Hello root user";
-        echo"id: {$username} pw: {$password}";
-        echo"cookie set: {$_COOKIE['accessLevel']}";
+        echo"<h1> Hello root user</h1>";
+        if(isset($_COOKIE['accessLevel']))
+        {
+            echo"cookie set: {$_COOKIE['accessLevel']}";
+        }
+        else
+        {
+            echo" No cookies set";
+        }
     }
 ?>

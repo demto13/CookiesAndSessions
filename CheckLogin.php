@@ -21,7 +21,6 @@
     else
     {
         echo"<h1>Incorrect details</h1>";
-        echo"id: {$username}" . "<br />" . "pw: {$password}" . "<br />";
-        echo"cookie set: {$_COOKIE['accessLevel']}";
+
     }
 ?>
