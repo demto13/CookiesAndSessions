@@ -10,11 +10,17 @@
 
     if(($username == "user") && ($password == "password"))
     {
+        session_start();
+
+        $_SESSION['id'] = $username;
         setcookie('accessLevelCookie', 'standardUser');
         header('location: HomePage.php');
     }
     elseif(($username == "tom") && ($password == "password"))
     {
+        session_start();
+
+        $_SESSION['id'] = $username;
         setcookie('accessLevelCookie', 'rootUser');
         header('location: HomePage.php');
     }
